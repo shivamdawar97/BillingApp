@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="item_name:"
+        android:id="@+id/item_name"
+        style="@style/Base.TextAppearance.AppCompat.Large"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:id="@+id/i_wt_id"
+        android:inputType="numberDecimal|number"
+        android:hint="     weight   "
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:layout_marginLeft="8dp"
+        android:textSize="35sp"
+        style="@style/Base.TextAppearance.AppCompat.Large"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:id="@+id/item_rate"
+        android:inputType="number|numberDecimal"
+        android:hint="      rate%    "/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="="
+        android:textSize="35sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pure Gold"
+        android:id="@+id/i_pg_id"
+        style="@style/Base.TextAppearance.AppCompat.Large"/>
+
+    <Button
+        android:id="@+id/btn_cancle"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/ic_delete" />
+
+
+</LinearLayout>
+
+</RelativeLayout>
